@@ -1,0 +1,132 @@
+#titlediv .inside p.description {
+	margin: 8px 2px 0;
+}
+
+// #titlediv .inside p.description label {
+// 	cursor: pointer;
+// }
+
+span.shortcode {
+	display: block;
+	margin: 2px 0;
+}
+
+span.shortcode > input {
+	background: inherit;
+	color: inherit;
+	font-size: 12px;
+	border: none;
+	box-shadow: none;
+	padding: 6px 8px;
+	margin: 0;
+}
+
+#submitpost input.copy {
+	margin-bottom: 10px;
+}
+
+#submitpost input.delete {
+	padding: 0;
+	margin: 0;
+	border: none;
+	cursor: pointer;
+	background: inherit;
+	color: #a00;
+}
+
+#submitpost input.delete:focus {
+	outline: thin dotted;
+}
+
+.postbox-container .postbox h3 {
+	border-bottom: 1px solid transparent;
+}
+
+.keyboard-interaction {
+	visibility: hidden;
+	color: #23282d;
+}
+
+
+
+/*
+ * List Table
+ */
+.fixed .column-title {
+	width: 38%;
+}
+
+.fixed .column-shortcode {
+	width: 38%;
+}
+
+/*
+ * Welcome Panel
+ */
+.welcome-panel p.message {
+	line-height: 1.4em;
+	margin-right: 25px;
+}
+
+.welcome-panel li {
+	margin-bottom: 12px;
+}
+
+.welcome-panel-close {
+	z-index: 2;
+}
+
+/*
+ * Integration
+ */
+.card {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #e5e5e5;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	margin-top: 20px;
+	max-width: 520px;
+	min-width: 255px;
+	padding: 0.7em 2em 1em;
+	position: relative;
+}
+
+.card.active {
+	background-color: #f7fcfe;
+}
+
+.card h3.title {
+	float: left;
+	max-width: 260px;
+}
+
+.card .infobox {
+	float: right;
+	font-size: 13px;
+	color: #666;
+	margin: 2px 0 5px;
+	line-height: 1.5;
+	max-width: 240px;
+}
+
+
+/* inside sponsors */
+.textcenter {
+  text-align: center;
+}
+
+.bsponsors img {
+  display: block;
+  max-width: 100%;
+}
+
+.bsponsors h3 {
+  font-weight: 400;
+  color: #23282d;
+}
+
+.blks-link {
+  text-decoration:none;
+  font-weight: 400;
+  color: #23282d;
+
+}
